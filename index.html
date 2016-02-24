@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Insta Canvas</title>
+	<link rel="stylesheet" href="styles/style.css">
+</head>
+
+<!-- Body of my canvas -->
+<body>
+<script type="text/javascript" src="JS/instafeed.min.js"></script>
+
+	<script type="text/javascript">
+
+
+		var feed = new Instafeed({
+        get: 'tagged',
+        tagName: 'yeezyforsale',
+        resolution: 'standard_resolution',
+        // userId: '26620985',
+        accessToken: '26620985.745c638.74a59aa021a84eeab1d50b4c7c687180'
+        // clientId: 'ef2697a072c24e968b67f86c7850f95c'
+    });
+
+    feed.run();
+    </script>
+
+	<h1>My Instagram feed</h1>
+	<div id="instafeed"></div>
+</body>
+</html>
