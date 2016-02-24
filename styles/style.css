@@ -1,11 +1,54 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Raleway:100);
 
 body {
-	background: #e06d5b;
+	background: #222;
+	background-image: url(http://photon.101medialablimit.netdna-cdn.com/hypebeast.com/image/2016/02/kanye-west-yeezy-season-3-unveiling-11.jpg?w=1755);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	margin: 0px;
+	padding: 0px;
+}
+
+#insta-wrap {
+	width: 1000px;
+	height: 600px;
+	margin: 35px auto 0 auto;
+}
+
+#info {
+	width: 1000px;
+	height: 1000px;
+	margin: auto;
+}
+
+p{
+	font-family: 'Raleway', sans-serif;
+	color: #fff;
+	text-align: center;
 }
 
 h1{
 	font-family: 'Montserrat', sans-serif;
 	color: #fff;
 	text-align: center;
+}
+
+/*#instafeed{
+	background-image: url(http://photon.101medialablimit.netdna-cdn.com/hypebeast.com/image/2016/02/kanye-west-yeezy-season-3-unveiling-11.jpg?w=1755);
+}*/
+
+#instafeed img {
+	padding: 5px;
+/*	opacity: 50%;
+*/	/*filter: alpha(opacity=80);*/
+}
+
+#instafeed img:hover{
+	border-radius: 10%;
+	background: #fff;
+/*	opacity: 100%;
+*/	/*filter: alpha(opacity=100);*/
 }
