@@ -1,54 +1,81 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 @import url(https://fonts.googleapis.com/css?family=Raleway:100);
+@import url(https://fonts.googleapis.com/css?family=Lato:100);
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Slab:300);
 
-body {
-	background: #222;
-	background-image: url(http://photon.101medialablimit.netdna-cdn.com/hypebeast.com/image/2016/02/kanye-west-yeezy-season-3-unveiling-11.jpg?w=1755);
+body{
+	/*background-image: url(https://heavyeditorial.files.wordpress.com/2016/02/gettyimages-509641192_master.jpg?quality=65&strip=all);*/
+	background: linear-gradient(to bottom, rgba(255,255,255, 0) 0%, rgba(0,0,0, 1) 100%),
+   url(https://heavyeditorial.files.wordpress.com/2016/02/gettyimages-509641192_master.jpg?quality=65&strip=all);;
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
-	margin: 0px;
-	padding: 0px;
+	background-color: #222;
+	opacity: 50%;
 }
 
-#insta-wrap {
-	width: 1000px;
-	height: 600px;
-	margin: 35px auto 0 auto;
-}
+/*.loader{
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(http://i.imgur.com/l7Wu1Bn.gif) 50% 50% no-repeat rgba(249,249,249);
+}*/
 
 #info {
-	width: 1000px;
-	height: 1000px;
+	width: 100%;
+	height: 500px;
+	padding: 0;
 	margin: auto;
 }
 
+#insta-wrap {
+	width: 100%;
+	height: 40%;
+	padding: 0;
+	margin-right: auto;
+	margin-left: auto;
+}
+
 p{
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Josefin Slab', serif;
+	font-size: 20px;
 	color: #fff;
 	text-align: center;
+	margin: 53px auto;
+    width: 350px;
+
 }
 
 h1{
-	font-family: 'Montserrat', sans-serif;
-	color: #fff;
-	text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    font-size: 50px;
+    padding: 8px;
+    border-style: solid;
+    border-width: thin;
+    border-color: #000;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-/*#instafeed{
-	background-image: url(http://photon.101medialablimit.netdna-cdn.com/hypebeast.com/image/2016/02/kanye-west-yeezy-season-3-unveiling-11.jpg?w=1755);
-}*/
+#instafeed {
+	margin-left: 53px;
+}
 
 #instafeed img {
 	padding: 5px;
-/*	opacity: 50%;
-*/	/*filter: alpha(opacity=80);*/
 }
 
 #instafeed img:hover{
-	border-radius: 10%;
-	background: #fff;
+	border-radius: 5%;
+	background: #222;
+	transition-delay: 0.8s ease;
 /*	opacity: 100%;
 */	/*filter: alpha(opacity=100);*/
 }

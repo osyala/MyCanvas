@@ -1,7 +1,12 @@
 
+
+
+
+
 var feed = new Instafeed({
     get: 'tagged',
     tagName: 'yeezyforsale',
+    // resolution: 'standard_resolution',
     limit: "32",
     // resolution: 'low_resolution',
         // userId: '26620985',
@@ -10,3 +15,12 @@ var feed = new Instafeed({
     });
 
 feed.run();
+
+
+// loading gif
+// 
+
+
+// $(window).load(function(){
+// 	$(".loader").fadeOut("slow");
+// })
